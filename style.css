@@ -32,13 +32,18 @@ body{
     border-radius: 50%;
     opacity: .8;
     cursor: pointer;
-    border: 5px solid rgb(0, 110, 255);
     background-color:rgb(255, 255, 255);
-    transition: all .7s ease;
+    transition: all .1s ease;
 }
 .bar:hover{
     opacity: 1;
     transform: scale(1.1);
+}
+.bar:active{
+    transition: all .1s ease;
+    width: 5px;
+    height: 5px;
+    border: 5px solid rgb(0, 110, 255);
 }
 input {
     position: absolute;
